@@ -93,10 +93,12 @@ Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles/
 
 ---
 
-## **Sample Output**
+## **Sample Input and Output**
 The algorithm processes input images to detect lanes and overlays the detected lanes on the original image:
 
-![Sample Output](assets/Tracked_Lane.png)
+| Input Image               | Output Image              |
+|---------------------------|---------------------------|
+| ![Input](assets/input_01.png) | ![Output](assets/output_01.png) |
 
 ---
 
