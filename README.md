@@ -47,10 +47,39 @@ Processed images with overlaid lane markings are saved in the output directory s
 
 ## **Folder Structure**
 ```
-|-- lane-detection-matlab
-    |-- inputs/          # Input images (from KITTI dataset)
-    |-- outputs/         # Output images (processed results)
-    |-- lane_detection.m # Main MATLAB script
+Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles/
+├── assets/
+│   ├── Tracked_Lane.png
+├── input_images/
+│   ├── input_01.png
+│   ├── input_02.png
+│   ├── input_03.png
+│   ├── input_04.png
+│   ├── input_05.png
+│   ├── input_06.png
+│   ├── input_07.png
+│   ├── input_08.png
+│   ├── input_09.png
+│   ├── input_10.png
+├── output_images/
+│   ├── output_01.png
+│   ├── output_02.png
+│   ├── output_03.png
+│   ├── output_04.png
+│   ├── output_05.png
+│   ├── output_06.png
+│   ├── output_07.png
+│   ├── output_08.png
+│   ├── output_09.png
+│   ├── output_10.png
+├── lane_detection.m
+├── preprocess_image.m
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── DATASET.md
+├── .gitignore
+
 ```
 
 ---
@@ -90,6 +119,6 @@ Contributions are welcome! Please create a pull request for any updates or impro
 
 ## **Contact**
 For questions or collaborations, feel free to reach out:
-- **Name**: Sudharsan
+- **Name**: Sudharsan N
 - **Email**: [your.email@example.com](mailto:your.email@example.com)
 - **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
