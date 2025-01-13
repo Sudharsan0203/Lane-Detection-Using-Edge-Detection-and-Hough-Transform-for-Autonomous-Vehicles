@@ -28,8 +28,8 @@ This project implements a lane detection algorithm using MATLAB, focusing on com
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/lane-detection-matlab.git
-cd lane-detection-matlab
+git clone https://github.com/Sudharsan0203/Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles.git
+cd Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles
 ```
 
 ### 2. Organize the Dataset
