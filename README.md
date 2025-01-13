@@ -67,7 +67,7 @@ Processed images with overlaid lane markings are saved in the output directory s
 ## **Sample Output**
 The algorithm processes input images to detect lanes and overlays the detected lanes on the original image:
 
-![Sample Output](path/to/sample_output.png)
+![Sample Output](assests/Tracked_Lane.png)
 
 ---
 
