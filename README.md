@@ -1,4 +1,5 @@
-# Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles
+# Lane Detection Using Edge Detection and Hough Transform for Autonomous Vehicles
+
 
 This project implements a lane detection algorithm using MATLAB, focusing on computer vision techniques such as edge detection, color segmentation, and the Hough Transform. Polynomial fitting is employed for accurate curved lane tracking, ensuring continuity and robustness. The algorithm is tested on the KITTI dataset and optimized for real-world scenarios with varied lighting and road conditions.
 
@@ -66,7 +67,7 @@ Processed images with overlaid lane markings are saved in the output directory s
 ## **Sample Output**
 The algorithm processes input images to detect lanes and overlays the detected lanes on the original image:
 
-![Sample Output]()
+![Sample Output](path/to/sample_output.png)
 
 ---
 
@@ -89,6 +90,6 @@ Contributions are welcome! Please create a pull request for any updates or impro
 
 ## **Contact**
 For questions or collaborations, feel free to reach out:
-- **Name**: Sudharsan N
-- **Email**: [nsudharsan2003@gmail.com](mailto:nsudharsan2003@gmail.com)
-- **LinkedIn**: [SUDHARSAN N](https://www.linkedin.com/in/this-is-sudharsan-n/)
+- **Name**: Sudharsan
+- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
