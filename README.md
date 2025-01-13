@@ -16,7 +16,7 @@ This project implements a lane detection algorithm using MATLAB, focusing on com
 ---
 
 ## **Prerequisites**
-1. **MATLAB** (Tested on R2023a) with:
+1. **MATLAB** (Tested on R2024b) with:
    - Image Processing Toolbox
    - Computer Vision Toolbox
 2. **KITTI Dataset**: [Download here](http://www.cvlibs.net/datasets/kitti/)
@@ -28,8 +28,8 @@ This project implements a lane detection algorithm using MATLAB, focusing on com
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/lane-detection-matlab.git
-cd lane-detection-matlab
+git clone https://github.com/Sudharsan0203/Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles.git
+cd Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles
 ```
 
 ### 2. Organize the Dataset
@@ -47,10 +47,39 @@ Processed images with overlaid lane markings are saved in the output directory s
 
 ## **Folder Structure**
 ```
-|-- lane-detection-matlab
-    |-- inputs/          # Input images (from KITTI dataset)
-    |-- outputs/         # Output images (processed results)
-    |-- lane_detection.m # Main MATLAB script
+Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles/
+├── assets/
+│   ├── Tracked_Lane.png
+├── input_images/
+│   ├── input_01.png
+│   ├── input_02.png
+│   ├── input_03.png
+│   ├── input_04.png
+│   ├── input_05.png
+│   ├── input_06.png
+│   ├── input_07.png
+│   ├── input_08.png
+│   ├── input_09.png
+│   ├── input_10.png
+├── output_images/
+│   ├── output_01.png
+│   ├── output_02.png
+│   ├── output_03.png
+│   ├── output_04.png
+│   ├── output_05.png
+│   ├── output_06.png
+│   ├── output_07.png
+│   ├── output_08.png
+│   ├── output_09.png
+│   ├── output_10.png
+├── lane_detection.m
+├── preprocess_image.m
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── DATASET.md
+├── .gitignore
+
 ```
 
 ---
@@ -67,7 +96,7 @@ Processed images with overlaid lane markings are saved in the output directory s
 ## **Sample Output**
 The algorithm processes input images to detect lanes and overlays the detected lanes on the original image:
 
-![Sample Output](path/to/sample_output.png)
+![Sample Output](assests/Tracked_Lane.png)
 
 ---
 
@@ -90,6 +119,6 @@ Contributions are welcome! Please create a pull request for any updates or impro
 
 ## **Contact**
 For questions or collaborations, feel free to reach out:
-- **Name**: Sudharsan
+- **Name**: Sudharsan N
 - **Email**: [your.email@example.com](mailto:your.email@example.com)
 - **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
