@@ -16,7 +16,7 @@ This project implements a lane detection algorithm using MATLAB, focusing on com
 ---
 
 ## **Prerequisites**
-1. **MATLAB** (Tested on R2023a) with:
+1. **MATLAB** (Tested on R2024b) with:
    - Image Processing Toolbox
    - Computer Vision Toolbox
 2. **KITTI Dataset**: [Download here](http://www.cvlibs.net/datasets/kitti/)
