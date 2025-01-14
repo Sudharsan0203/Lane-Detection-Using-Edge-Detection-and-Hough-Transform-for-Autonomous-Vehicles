@@ -56,23 +56,51 @@ To run the lane detection algorithm, the following toolboxes must be installed i
 git clone https://github.com/Sudharsan0203/Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles.git
 cd Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles
 ```
-
-### 2. Organize the Dataset
-Place the input images from the KITTI dataset in the `inputs` folder within the repository directory.
+### 2. Prepare the Input Dataset
+- Place the images from the KITTI dataset into the input_images folder located in the repository directory.
+- Ensure the folder structure looks like this:
+```bash
+Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles/
+├── input_images/
+│   ├── input_01.png
+│   ├── input_02.png
+│   ├── ...
+```
+- **Note:** Input images must be in .png format to ensure compatibility with the script.
 
 ### 3. Run the Script
 1. Open `lane_detection.m` in MATLAB.
-2. Update the `inputFolder` and `outputFolder` variables with the correct paths to your input images and desired output directory.
-3. Execute the script to process all images in the input folder.
+2. Update the following variables in the script to match your folder structure:
+- inputFolder: Path to the `input_images` folder.
+- outputFolder: Path to the `output_images` folder where processed images will be saved.
+3. Execute the script in MATLAB:
+```bash
+run('lane_detection.m')
+```
+4. The script processes all images in the `input_images` folder and saves the results in the output_images folder.
 
 ### 4. View Results
-Processed images with overlaid lane markings are saved in the output directory specified.
-
+- The processed images will be saved in the `output_images` folder, with lane markings overlaid on the original images.
 ---
+## Troubleshooting
+**Common Errors and Solutions:**
+1. Missing Toolboxes:
+- If you encounter an error regarding missing functions, ensure the required toolboxes (Image Processing Toolbox and Computer Vision Toolbox) are installed. Refer to the Prerequisites section for installation instructions.
+2. Incorrect Dataset Structure:
+- Ensure that the input images are placed in the input_images folder and that the folder path in the script matches the actual location.
+3. File Format Issues:
+- Verify that all input images are in .png format. Convert other formats to .png if necessary.
+4. Permission Errors:
+- Ensure MATLAB has write permissions for the output_images folder to save the results.
+If the issue persists, consult the MATLAB documentation or reach out via the Contact section of this README.
+
 
 ## **Folder Structure**
 ```
 Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles/
+├── assets/
+|   ├── input_01.png
+|   ├── output_01.png 
 ├── input_images/
 │   ├── input_01.png
 │   ├── input_02.png
