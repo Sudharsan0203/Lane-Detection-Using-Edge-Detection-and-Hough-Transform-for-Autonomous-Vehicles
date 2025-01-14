@@ -1,6 +1,5 @@
 # Lane Detection Using Edge Detection and Hough Transform for Autonomous Vehicles
 
-
 This project implements a lane detection algorithm using MATLAB, focusing on computer vision techniques such as edge detection, color segmentation, and the Hough Transform. Polynomial fitting is employed for accurate curved lane tracking, ensuring continuity and robustness. The algorithm is tested on the KITTI dataset and optimized for real-world scenarios with varied lighting and road conditions.
 
 ---
@@ -12,12 +11,12 @@ Lane detection is a fundamental aspect of autonomous driving systems, enabling v
 ---
 
 ## **Features**
-- Edge Detection (Canny) for identifying lane boundaries.
-- HSV-based Color Segmentation for isolating lane markings.
-- Region of Interest (ROI) masking for focused detection.
-- Hough Transform for line detection and fitting.
-- Polynomial Curve Fitting for precise curved lane tracking.
-- Scalability enhancements for diverse environmental conditions.
+- **Edge Detection (Canny)** for identifying lane boundaries.
+- **HSV-based Color Segmentation** for isolating lane markings.
+- **Region of Interest (ROI) Masking** for focused detection.
+- **Hough Transform** for line detection and fitting.
+- **Polynomial Curve Fitting** for precise curved lane tracking.
+- **Scalability Enhancements** for diverse environmental conditions.
 
 ---
 
@@ -42,10 +41,7 @@ To run the lane detection algorithm, the following toolboxes must be installed i
 - The algorithm is tested on images from the **KITTI dataset**, a standard dataset used for benchmarking computer vision algorithms in autonomous driving.
 - **Download the KITTI Dataset:** Visit the [KITTI Official Website](http://www.cvlibs.net/datasets/kitti/).
 - After downloading, extract the dataset and organize the images as instructed in the **Setup and Usage** section.
-
-### 4. Basic MATLAB Knowledge
-- A fundamental understanding of MATLAB scripting, folder navigation, and function handling is required to run the scripts, modify parameters, and interpret the results effectively.
-
+- **Alternate Option:** Users can generate their test datasets by capturing road images using a camera and saving them in `.png` format.
 
 ---
 
@@ -56,8 +52,9 @@ To run the lane detection algorithm, the following toolboxes must be installed i
 git clone https://github.com/Sudharsan0203/Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles.git
 cd Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles
 ```
+
 ### 2. Prepare the Input Dataset
-- Place the images from the KITTI dataset into the input_images folder located in the repository directory.
+- Place the images from the KITTI dataset into the `input_images` folder located in the repository directory.
 - Ensure the folder structure looks like this:
 ```bash
 Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles/
@@ -66,81 +63,63 @@ Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles/
 │   ├── input_02.png
 │   ├── ...
 ```
-- **Note:** Input images must be in .png format to ensure compatibility with the script.
+- **Note:** Input images must be in `.png` format to ensure compatibility with the script.
 
 ### 3. Run the Script
 1. Open `lane_detection.m` in MATLAB.
 2. Update the following variables in the script to match your folder structure:
-- inputFolder: Path to the `input_images` folder.
-- outputFolder: Path to the `output_images` folder where processed images will be saved.
+   - `inputFolder`: Path to the `input_images` folder.
+   - `outputFolder`: Path to the `output_images` folder where processed images will be saved.
 3. Execute the script in MATLAB:
-```bash
+```matlab
 run('lane_detection.m')
 ```
 4. The script processes all images in the `input_images` folder and saves the results in the `output_images` folder.
 
 ### 4. View Results
 - The processed images will be saved in the `output_images` folder, with lane markings overlaid on the original images.
+
 ---
-## Troubleshooting
+
+## **Troubleshooting**
+
 ### **Common Errors and Solutions:**
-#### 1. Missing Toolboxes:
+
+#### 1. Missing Toolboxes
   - If you encounter an error regarding missing functions, ensure the required toolboxes (Image Processing Toolbox and Computer Vision Toolbox) are installed. Refer to the Prerequisites section for installation instructions.
-#### 2. Incorrect Dataset Structure:
-  - Ensure that the input images are placed in the input_images folder and that the folder path in the script matches the actual location.
-#### 3. File Format Issues:
-  - Verify that all input images are in .png format. Convert other formats to .png if necessary.
-#### 4. Permission Errors:
-  - Ensure MATLAB has write permissions for the output_images folder to save the results.
+
+#### 2. Incorrect Dataset Structure
+  - Ensure that the input images are placed in the `input_images` folder and that the folder path in the script matches the actual location.
+
+#### 3. File Format Issues
+  - Verify that all input images are in `.png` format. Convert other formats to `.png` if necessary.
+
+#### 4. Permission Errors
+  - Ensure MATLAB has write permissions for the `output_images` folder to save the results.
+  - **Windows:** Right-click the folder, select "Properties > Security", and adjust permissions.
+  - **Linux/Mac:** Use `chmod` to adjust permissions:
+```bash
+chmod -R 755 output_images
+```
+
 If the issue persists, consult the MATLAB documentation or reach out via the Contact section of this README.
 
+---
 
 ## **Folder Structure**
 ```
 Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles/
-├── assets/
-|   ├── input_01.png
-|   ├── output_01.png 
 ├── input_images/
 │   ├── input_01.png
-│   ├── input_02.png
-│   ├── input_03.png
-│   ├── input_04.png
-│   ├── input_05.png
-│   ├── input_06.png
-│   ├── input_07.png
-│   ├── input_08.png
-│   ├── input_09.png
-│   ├── input_10.png
 ├── output_images/
 │   ├── output_01.png
-│   ├── output_02.png
-│   ├── output_03.png
-│   ├── output_04.png
-│   ├── output_05.png
-│   ├── output_06.png
-│   ├── output_07.png
-│   ├── output_08.png
-│   ├── output_09.png
-│   ├── output_10.png
 ├── lane_detection.m
 ├── preprocess_image.m
 ├── README.md
 ├── LICENSE
-├── requirements.txt
 ├── DATASET.md
 ├── .gitignore
-
 ```
-
----
-
-## **Key MATLAB Functions Used**
-- `imread`, `imshow`, `imwrite` for image handling.
-- `rgb2gray`, `imgaussfilt`, `edge` for preprocessing and edge detection.
-- `poly2mask` for ROI masking.
-- `hough`, `houghpeaks`, `houghlines` for Hough Transform.
-- `polyfit`, `polyval` for polynomial curve fitting.
 
 ---
 
@@ -170,8 +149,16 @@ Contributions are welcome! Please create a pull request for any updates or impro
 
 ---
 
+## **How to Cite**
+If you use this project in your research, please cite it as follows:
+```
+Sudharsan N. Lane Detection Using Edge Detection and Hough Transform for Autonomous Vehicles, 2025. GitHub repository: https://github.com/Sudharsan0203/Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles
+```
+
+---
+
 ## **Contact**
 For questions or collaborations, feel free to reach out:
 - **Name**: Sudharsan N
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
+- **Email**: [sudharsan.email@example.com](mailto:sudharsan.email@example.com)
+- **LinkedIn**: [Sudharsan's LinkedIn Profile](https://www.linkedin.com/in/sudharsan)
