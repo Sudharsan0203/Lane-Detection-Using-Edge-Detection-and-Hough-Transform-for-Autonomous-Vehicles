@@ -48,8 +48,6 @@ Processed images with overlaid lane markings are saved in the output directory s
 ## **Folder Structure**
 ```
 Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles/
-├── assets/
-│   ├── Tracked_Lane.png
 ├── input_images/
 │   ├── input_01.png
 │   ├── input_02.png
