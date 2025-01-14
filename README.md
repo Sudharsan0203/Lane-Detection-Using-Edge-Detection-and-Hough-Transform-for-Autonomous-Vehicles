@@ -21,26 +21,31 @@ Lane detection is a fundamental aspect of autonomous driving systems, enabling v
 
 ---
 
-Prerequisites
-1. MATLAB Software
-Version: This project has been tested on MATLAB R2024b. While the algorithm may work on earlier versions, some functions or features might require modifications for compatibility. For the best experience, it is recommended to use MATLAB R2024b or a newer version.
-Download MATLAB: You can download MATLAB from the MathWorks Official Website.
-2. Required MATLAB Toolboxes
-To run the lane detection algorithm, the following toolboxes must be installed in your MATLAB environment:
+## **Prerequisites**
 
-Image Processing Toolbox: Essential for image handling, preprocessing, and edge detection.
-Computer Vision Toolbox: Used for advanced image processing tasks, such as Hough Transform.
-Installing Toolboxes
-Open MATLAB.
-Navigate to Home > Add-Ons > Get Add-Ons.
-In the search bar, type the name of the required toolbox (e.g., "Image Processing Toolbox").
-Click Add to install the toolbox.
-3. KITTI Dataset
-The algorithm is tested on images from the KITTI dataset, a standard dataset used for benchmarking computer vision algorithms in autonomous driving.
-Download the KITTI Dataset: Visit the KITTI Official Website.
-After downloading, extract the dataset and organize the images as instructed in the Setup and Usage section.
-4. Basic MATLAB Knowledge
-A fundamental understanding of MATLAB scripting, folder navigation, and function handling is required to run the scripts, modify parameters, and interpret the results effectively.
+### 1. MATLAB Software
+- **Version:** This project has been tested on MATLAB R2024b. While the algorithm may work on earlier versions, some functions or features might require modifications for compatibility. For the best experience, it is recommended to use MATLAB R2024b or a newer version.
+- **Download MATLAB:** You can download MATLAB from the [MathWorks Official Website](https://www.mathworks.com/products/matlab.html).
+
+### 2. Required MATLAB Toolboxes
+To run the lane detection algorithm, the following toolboxes must be installed in your MATLAB environment:
+- **Image Processing Toolbox**: Essential for image handling, preprocessing, and edge detection.
+- **Computer Vision Toolbox**: Used for advanced image processing tasks, such as Hough Transform.
+
+#### Installing Toolboxes
+1. Open MATLAB.
+2. Navigate to **Home > Add-Ons > Get Add-Ons**.
+3. In the search bar, type the name of the required toolbox (e.g., "Image Processing Toolbox").
+4. Click **Add** to install the toolbox.
+
+### 3. KITTI Dataset
+- The algorithm is tested on images from the **KITTI dataset**, a standard dataset used for benchmarking computer vision algorithms in autonomous driving.
+- **Download the KITTI Dataset:** Visit the [KITTI Official Website](http://www.cvlibs.net/datasets/kitti/).
+- After downloading, extract the dataset and organize the images as instructed in the **Setup and Usage** section.
+
+### 4. Basic MATLAB Knowledge
+- A fundamental understanding of MATLAB scripting, folder navigation, and function handling is required to run the scripts, modify parameters, and interpret the results effectively.
+
 
 ---
 
