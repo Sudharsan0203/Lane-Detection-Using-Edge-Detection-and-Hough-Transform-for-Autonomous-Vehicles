@@ -106,17 +106,39 @@ If the issue persists, consult the MATLAB documentation or reach out via the Con
 
 ---
 
-## **Folder Structure**
+# **Folder Structure**
 ```
 Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles/
+├── assets/
+|   ├── input_01.png
+|   ├── output_01.png 
 ├── input_images/
 │   ├── input_01.png
+│   ├── input_02.png
+│   ├── input_03.png
+│   ├── input_04.png
+│   ├── input_05.png
+│   ├── input_06.png
+│   ├── input_07.png
+│   ├── input_08.png
+│   ├── input_09.png
+│   ├── input_10.png
 ├── output_images/
 │   ├── output_01.png
+│   ├── output_02.png
+│   ├── output_03.png
+│   ├── output_04.png
+│   ├── output_05.png
+│   ├── output_06.png
+│   ├── output_07.png
+│   ├── output_08.png
+│   ├── output_09.png
+│   ├── output_10.png
 ├── lane_detection.m
 ├── preprocess_image.m
 ├── README.md
 ├── LICENSE
+├── requirements.txt
 ├── DATASET.md
 ├── .gitignore
 ```
