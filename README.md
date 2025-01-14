@@ -135,7 +135,6 @@ Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles/
 │   ├── output_09.png
 │   ├── output_10.png
 ├── lane_detection.m
-├── preprocess_image.m
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
