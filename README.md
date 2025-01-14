@@ -5,6 +5,12 @@ This project implements a lane detection algorithm using MATLAB, focusing on com
 
 ---
 
+## **Motivation for the Project**
+
+Lane detection is a fundamental aspect of autonomous driving systems, enabling vehicles to perceive and navigate roads accurately. By identifying lane boundaries, autonomous vehicles can maintain lane discipline, ensure safer driving, and execute maneuvers like lane changes and turns effectively. Given the varying road conditions, lighting, and lane marking styles encountered in real-world scenarios, developing a robust lane detection algorithm is critical for enhancing the reliability and safety of autonomous vehicles. This project aims to address these challenges by implementing a scalable and efficient lane detection algorithm, making it adaptable to diverse environmental conditions.
+
+---
+
 ## **Features**
 - Edge Detection (Canny) for identifying lane boundaries.
 - HSV-based Color Segmentation for isolating lane markings.
