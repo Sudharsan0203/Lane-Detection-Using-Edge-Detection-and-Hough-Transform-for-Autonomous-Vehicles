@@ -1,6 +1,6 @@
 % Define the input and output directories
-inputFolder = 'Enter the pah to the input images folder:'; % Folder containing input images
-outputFolder = 'Enter the pah to the output images folder:'; % Folder to save output images
+inputFolder = 'Enter the path to the input images folder:'; % Folder containing input images
+outputFolder = 'Enter the path to the output images folder:'; % Folder to save output images
 
 % Create the output folder if it doesn't exist
 if ~exist(outputFolder, 'dir')
