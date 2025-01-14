@@ -1,6 +1,6 @@
 % Define the input and output directories
-inputFolder = 'C:\Sudharsan\Projects\ADAS projects\Lane detection\Lane detection inputs1'; % Folder containing input images
-outputFolder = 'C:\Sudharsan\Projects\ADAS projects\Lane detection\Lane detection outputs2'; % Folder to save output images
+inputFolder = 'Enter the pah to the input images folder:'; % Folder containing input images
+outputFolder = 'Enter the pah to the output images folder:'; % Folder to save output images
 
 % Create the output folder if it doesn't exist
 if ~exist(outputFolder, 'dir')
