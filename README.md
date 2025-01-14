@@ -77,7 +77,7 @@ Lane-Detection-Using-Edge-Detection-and-Hough-Transform-for-Autonomous-Vehicles/
 ```bash
 run('lane_detection.m')
 ```
-4. The script processes all images in the `input_images` folder and saves the results in the output_images folder.
+4. The script processes all images in the `input_images` folder and saves the results in the `output_images` folder.
 
 ### 4. View Results
 - The processed images will be saved in the `output_images` folder, with lane markings overlaid on the original images.
@@ -85,13 +85,13 @@ run('lane_detection.m')
 ## Troubleshooting
 **Common Errors and Solutions:**
 1. Missing Toolboxes:
-- If you encounter an error regarding missing functions, ensure the required toolboxes (Image Processing Toolbox and Computer Vision Toolbox) are installed. Refer to the Prerequisites section for installation instructions.
+ - If you encounter an error regarding missing functions, ensure the required toolboxes (Image Processing Toolbox and Computer Vision Toolbox) are installed. Refer to the Prerequisites section for installation instructions.
 2. Incorrect Dataset Structure:
-- Ensure that the input images are placed in the input_images folder and that the folder path in the script matches the actual location.
+ - Ensure that the input images are placed in the input_images folder and that the folder path in the script matches the actual location.
 3. File Format Issues:
-- Verify that all input images are in .png format. Convert other formats to .png if necessary.
+ - Verify that all input images are in .png format. Convert other formats to .png if necessary.
 4. Permission Errors:
-- Ensure MATLAB has write permissions for the output_images folder to save the results.
+ - Ensure MATLAB has write permissions for the output_images folder to save the results.
 If the issue persists, consult the MATLAB documentation or reach out via the Contact section of this README.
 
 
