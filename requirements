@@ -1,0 +1,14 @@
+# MATLAB Toolboxes Required
+Image Processing Toolbox >= R2022a
+Computer Vision Toolbox >= R2022a
+
+# Dataset
+Dataset: KITTI Dataset (Download: http://www.cvlibs.net/datasets/kitti/)
+Place dataset images in the 'input_images/' folder.
+
+# MATLAB Version
+MATLAB Version: R2022a or newer
+
+# Instructions
+- Ensure the specified toolboxes are installed in MATLAB.
+- If running this project in MATLAB Online, verify the toolboxes are included in your workspace.
