@@ -1,0 +1,40 @@
+# Ignore MATLAB generated files
+*.asv
+*.m~
+*.mlx
+
+# Ignore temporary files and logs
+*.log
+*.tmp
+
+# Ignore image processing intermediate files
+output_images/
+*.bak
+*.swp
+*.swo
+
+# Ignore Python-related files (if any Python scripts are added in the future)
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore dataset files (optional, if dataset should not be included in the repo)
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.ini
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.iml
+
+# Ignore virtual environments (if created for Python tools)
+env/
+venv/
